@@ -1,0 +1,81 @@
+/* -------------
+    Global Style 
+   --------------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2 {
+  font-weight: 600;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+li {
+  list-style: none;
+}
+p {
+  text-align: justify;
+}
+
+/* ---------------
+*/
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  overflow-x: hidden;
+  padding: 35px 15px;
+}
+.btn {
+  line-height: 1.5;
+  padding: 10px 28px;
+  display: inline-block;
+  border-radius: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: inherit;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #f88064;
+  color: aliceblue;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+main {
+  max-width: 1220px;
+  margin: auto;
+}
+
+#home-section {
+  display: flex;
+}
+.home-content {
+  max-width: 60%;
+}
+.home-content h1 {
+}
+.home-content span {
+  color: #2db1ea;
+}
+.home-img {
+  max-width: 40%;
+}
+
+/*------------font-family: 'Manrope', sans-serif; font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Volkhov', serif;*/
